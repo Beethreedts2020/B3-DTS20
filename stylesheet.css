@@ -1,27 +1,5 @@
 body {
   font-family: Georgia;
-<<<<<<< HEAD
-  margin: auto;
-}
-
-.container{
-  width: 1200px;
-  padding: 0 20px;
-  margin: auto;
-}
-.bagianutama {
-  background-image: url(img/backgr.png);
-  text-align: center;
-  background-size:cover;
-  opacity: 0.5;
-}
-.bagianutama h1{
-  font-size: 25px;
-  color:#58B19F;
-  letter-spacing: 5px;
-  line-height: 10px;
-}
-=======
   margin: 0;
 }
 a {text-decoration: none;}
@@ -263,4 +241,3 @@ input, textarea {
     background-color: whitesmoke;
   }
 /* Akhir code Extra-2 Astri*/
->>>>>>> 99dd67c634331ed7aa7c8f142a9d1b4b6262a822
