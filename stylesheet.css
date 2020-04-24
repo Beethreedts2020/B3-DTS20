@@ -226,9 +226,6 @@ input, textarea {
     width: 20%;
     margin-top: 10px;
     text-align: center;
-  }
-
-  .btn {
     padding: 12px 24px;
     color: black;
     display: inline-block;
