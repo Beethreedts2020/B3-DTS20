@@ -13,6 +13,30 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
 
+  /*header*/
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  /*menu utama*/
+  .bagianutama {
+    text-align: left;
+  }
+  
+  .bagianutama h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .bagianutama p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
   /*extra 1*/
   .btn {
     width: 100%;
