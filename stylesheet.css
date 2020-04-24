@@ -9,6 +9,35 @@ a {text-decoration: none;}
   padding: 0 20px;
   margin: auto;
 }
+
+header {
+  background-color: #d7f4f4;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float:left;
+}
+
+.header-right {
+  float: right;
+  margin-right: auto;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  float: right;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  line-height: 65px;
+  display: block;
+}
+
 .bagianutama {
   background-image: url(background/background.png);
   text-align: center;
