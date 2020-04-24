@@ -1,0 +1,33 @@
+@media all and (max-width: 1000px) {
+
+  .heading-extra1 {
+    font-size: 20px;
+  }
+  
+  .member {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  /*extra 1*/
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .twitter {
+    margin-bottom: 10px;
+  }
+
+  .member {
+    width: 100%;
+  }
+
+}
