@@ -1,5 +1,6 @@
 body {
   font-family: Georgia;
+<<<<<<< HEAD
   margin: auto;
 }
 
@@ -20,3 +21,246 @@ body {
   letter-spacing: 5px;
   line-height: 10px;
 }
+=======
+  margin: 0;
+}
+a {text-decoration: none;}
+
+.container{
+  width: 1170px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+header {
+  background-color: #d7f4f4;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float:left;
+}
+
+.header-right {
+  float: right;
+  margin-right: auto;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  float: right;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 20px;
+  line-height: 65px;
+  display: block;
+}
+
+/*Bagian Utama*/
+.bagianutama {
+  background-image: url(background/background.png);
+  text-align: center;
+  background-size:cover;
+  padding: 180px 20px 150px 20px;
+  position: relative;
+  }
+
+.tumpuk {
+  background-color: #a0522d;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.1;
+    }
+
+.utama1 h1{
+  padding-bottom: 46px;
+  border-bottom: 2px solid rgba(209, 216, 224,1.0);
+  display:inline-block;
+  font-size: 50px;
+  letter-spacing: 25px;
+  margin-bottom: 10px;
+  color:#fd9644;
+  line-height: 1px;
+  font-family:  Curlz MT, fantasy;
+
+}
+.utama1 p{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+    color:#f7b731;
+  }
+.deskripsi {
+  width: 100%
+}
+
+.deskripsi p {
+  width:260px;
+  display:inline-block;
+    font-size:12px;
+text-align:justify;
+border:2px solid #a5b1c2;
+padding: 2px;
+color:#fd9644;
+}
+
+
+/*Extra 1*/
+.extra1-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading-extra1 {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  /*color: #5f5d60;*/
+}
+
+.heading-extra1 h2 {
+  font-weight: bold;
+  color: bold;
+  size: 16px;
+}
+
+.heading-extra1 h3 {
+  font-weight: normal;
+  color: bold;
+}
+
+.member {
+  float: left;
+  width: 25%;
+}
+
+.member-icon {
+  position: relative;
+}
+
+.member-icon img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+
+.member-icon p {
+  size: 14px;
+  font-weight: bold;
+  color: bold;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+   margin-right: 10px;
+}
+
+.instagram {
+  background-color: #ff4500;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+/* Mulai code Extra-2 Astri */
+.extra2 {
+    width: 100%;
+    background-color: #c39e9e;
+    padding-top: 50px; 
+    margin: 0 auto;
+}
+
+.atas {
+  height: 142px;
+}
+
+.contact-us h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.contact-us h4{
+  text-align: center;
+    font-weight: normal;
+}
+
+.contact-form {
+    padding: 20px;
+    background: whitesmoke;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+.contact-form label{
+    line-height: 25px;
+    font-size: 14;
+    text-align: left;
+  }
+
+input, textarea {
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    border: 2px solid #dee7ec;
+    border-radius: 5px;
+    color: #999999;
+    margin-bottom: 10px;
+  }
+ 
+  .contact-submit {
+    background-color: #c39e9e;
+    font-size: 12px;
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .bawah {
+    background-color: whitesmoke;
+  }
+/* Akhir code Extra-2 Astri*/
+>>>>>>> 99dd67c634331ed7aa7c8f142a9d1b4b6262a822
