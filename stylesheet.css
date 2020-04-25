@@ -10,9 +10,12 @@ body {
 a {
   text-decoration: none;
 }
-
+.clear {
+  clear: left;
+}
 .container{
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 0 20px;
   margin: auto;
 }
@@ -46,10 +49,17 @@ header {
   display: block;
   color:white;
 }
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+display: none;
+}
 /*header end*/
 
-/*Bagian utama*/
-.bagianutama {
+/*home*/
+.home {
   background-image: url(background/background.png);
   text-align: center;
   background-size:cover;
@@ -58,8 +68,16 @@ header {
   padding: 160px 5% 80px 5%;
   position: relative;
 }
-
-.bagianutama h1{
+.tumpuk {
+  background-color: #a0522d;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.1;
+    }
+.homehead h1{
   /*opacity: 0.7;
   font-size: 45px;
   letter-spacing: 10px;
@@ -77,7 +95,7 @@ header {
   font-family:  Curlz MT, fantasy;
 }
 
-.bagianutama p{
+.homehead p{
   /*opacity: 0.7;
     margin-bottom: 3px;
     text-align: center;*/
@@ -92,39 +110,52 @@ header {
   width: 100%
 }
 
-/*Extra 1*/
-.extra1-wrapper {
+.deskripsi p {
+  width:500px;
+  display:inline-block;
+    font-size:16px;
+text-align:justify;
+border:2px solid #a5b1c2;
+padding: 5px;
+color:#fd9644;
+line-height: 25px;
+margin-top:40px;
+}
+/*home end*/
+
+/*bagian utama*/
+.bagian-utama {
   padding-top: 80px;
   padding-bottom: 50px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
-
+width:100%;
+  color:black;
 }
 
-.heading-extra1 {
-  /*padding-top: 80px;*/
-  padding-bottom: 50px;
+.heading-bagian-utama {
+  padding: 25px 0;
+  }
 
-}
-
-.extra1-wrapper h1 {
-  font-weight: bold;
-  color: bold;
-  size: 16px;
+.heading-bagian-utama h2 {
+ font-weight: bold;
+  font-size: 30px;
   letter-spacing: 5px;
+  margin-bottom:10px;
 }
 
-.extra1-wrapper h3 {
-  font-weight: normal;
-  color: bold;
+.heading-bagian-utama h3 {
+ font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 
 .member {
   float: left;
   width: 20%;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .member-icon {
@@ -132,8 +163,8 @@ header {
 }
 
 .member-icon img{
-   width: 200px;
-   height: 200px;
+   width: 180px;
+   height: 180px;
    border-radius: 50%;
 
 
@@ -145,9 +176,8 @@ header {
 }
    
 .member-icon p {
-  size: 14px;
+  font-size: 14px;
   font-weight: bold;
-  color: bold;
 }
 
 .btn-wrapper {
@@ -185,15 +215,15 @@ header {
 .fa {
   margin-right: 5px;
 }
-
-/*extra 2*/
+/*bagian utama end*/
+/*extra 1*/
 .skill-wrapper {
-  padding-top: 80px;
+  width:100%;
   padding-bottom: 80px;
+  background-color: #ecf0f1;
+  text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
 }
 
 .judul {
@@ -213,14 +243,8 @@ header {
   width: 25%;
 }
 
-.skill-icon {
-  position: relative;
-}
-
 .skill-icon img{
-  width: 200px;
-   height: 200px;
-   border-radius: 50%;
+  position: relative;
 }
 
 .txt-contents {
@@ -229,9 +253,8 @@ header {
   margin-top: 20px;
   font-size: 15px;
   color: black;
-  padding-bottom: 50px;
-}
-
+  }
+/*extra 1 end*/
 /* Mulai code Extra-2 Astri */
 .extra2 {
     width: 100%;
@@ -239,6 +262,8 @@ header {
     padding-top: 50px; 
     margin: 0 auto;
     clear: both;
+  padding-left: 5%;
+    padding-right:5%;
 }
 
 .atas {
@@ -248,11 +273,13 @@ header {
 .contact-us h1{
     text-align: center;
     letter-spacing: 5px;
+    margin-bottom: 10px;
 }
 
 .contact-us h4{
   text-align: center;
     font-weight: normal;
+    margin-top: 0;
 }
 
 .contact-form {
@@ -281,10 +308,10 @@ input, textarea {
   .contact-submit {
     background-color: #c39e9e;
     font-size: 12px;
-    width: 20%;
+    width: 25%;
     margin-top: 10px;
     text-align: center;
-    padding: 12px 24px;
+    padding: 12px 24px 12px 15px
     color: black;
     display: inline-block;
     opacity: 0.8;
