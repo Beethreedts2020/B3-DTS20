@@ -153,6 +153,11 @@ margin-top:40px;
    border-radius: 50%;
 }
 
+/*ini efek animasainya*/
+.member-icon img:hover {
+  transform: scale(1.5);
+}
+
 .member-icon p {
   size: 14px;
   font-weight: bold;
