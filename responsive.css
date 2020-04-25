@@ -1,6 +1,7 @@
 @media all and (max-width: 1000px) {
 
-  .homehead {
+  /*Extra1 */
+  .heading-extra1 {
     font-size: 20px;
   }
   
@@ -8,16 +9,22 @@
     width: 50%;
     margin-bottom: 50px;
   }
-  
+
   /*Extra2 */
   .contact-form {
     width: 85%;
   }
+
+
+  .skill {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-
   /*header*/
   .header-right {
     display: none;
@@ -29,7 +36,7 @@
 
   /*menu utama*/
   .bagianutama {
-    text-align: left;
+    text-align: center
   }
   
   .bagianutama h1 {
@@ -41,7 +48,7 @@
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   /*extra 1*/
   .btn {
     width: 100%;
@@ -58,7 +65,7 @@
   .member {
     width: 100%;
   }
-  
+
   /*Extra2 */
   .contact-form {
     width: 85%;
