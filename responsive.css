@@ -1,74 +1,85 @@
-@media all and (max-width: 1000px) {
-
-  /*Extra1 */
-  .heading-extra1 {
-    font-size: 20px;
-  }
-  
+@media (max-width:1000px) {
+  /*bagian utama*/
   .member {
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom:50px;
   }
-
-  /*Extra2 */
-  .contact-form {
-    width: 85%;
-  }
-
-
-  .skill {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
+  /*extra 1*/
+.skill {
+  width: 50%;
+  margin-bottom:50px;
+}
 }
 
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
-  /*header*/
-  .header-right {
-    display: none;
-  }
 
-  .menu-icon {
-    display: block;
-  }
-
-  /*menu utama*/
-  .bagianutama {
-    text-align: center
-  }
+@media (max-width:670px) {
   
-  .bagianutama h1 {
-    font-size: 24px;
-    line-height: 36px;
+  .btn{
+    width:100%;
   }
-  
-  .bagianutama p {
-    font-size: 14px;
-    line-height: 20px;
+/*header*/
+.menu-icon{
+  display:block;
+}
+.header-right{ display: none;
+}
+/*home*/
+  .home{
+    text-align: center;
+    padding-top:130px;
   }
-
-  /*extra 1*/
-  .btn {
-    width: 100%;
+  .home h1{
+    font-size: 30px;
+    letter-spacing: 15px;
+    padding-bottom: 25px;
   }
-
-  .facebook {
-    margin-bottom: 10px;
+  .home p{
+    font-size: 10px;
   }
-
-  .twitter {
-    margin-bottom: 10px;
+  .deskripsi p{
+    font-size: 10px;
+    width:300px;
   }
-
+/*bagian utama*/
   .member {
     width: 100%;
+    margin-bottom:50px;
   }
+.facebook{
+  margin-bottom: 10px;
+}
+.twitter{
+  margin-bottom: 10px;
+}
 
-  /*Extra2 */
-  .contact-form {
-    width: 85%;
+.heading-bagian-utama h2{
+  font-size: 20px;
+}
+.heading-bagian-utama h3{
+  font-size: 15px;
+}
+/*extra 1*/
+.judul h2{
+  font-size: 20px;
+}
+.txt-contents {
+  font-size: 10px;
+}
+
+.skill {
+  width: 100%;
+  margin-bottom:50px;
   }
+/*extra 2*/
+.contact-us h1{
+  font-size: 20px;
+}
+.contact-us h4{
+  font-size: 15px;
+}
+.contact-form{
+  width: 60%;
+}
+
 
 }
