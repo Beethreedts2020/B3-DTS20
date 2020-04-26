@@ -14,9 +14,8 @@ a {
   clear: left;
 }
 .container{
-  max-width: 1170px;
+  max-width: 1500px;
   width: 100%;
-  padding: 0 20px;
   margin: auto;
 }
 
@@ -65,7 +64,8 @@ display: none;
   background-size:cover;
   /*padding: 180px 20px 150px 20px;*/
   /*padding: 180px 0 5px 0;*/
-  padding: 160px 5% 80px 5%;
+  padding-top: 160px;
+  padding-bottom: 80px;
   position: relative;
 }
 .tumpuk {
@@ -262,8 +262,7 @@ width:100%;
     padding-top: 50px; 
     margin: 0 auto;
     clear: both;
-  padding-left: 5%;
-    padding-right:5%;
+  
 }
 
 .atas {
@@ -324,11 +323,12 @@ input, textarea {
 
   .bawah {
     background-color: whitesmoke;
+    height: 400px;
   }
 /* Akhir code Extra-2 Astri*/
 
 /* Footer*/
-.footer{
+footer {
     background-color:#2c3e50;
     color:black;
     height: 140px;
@@ -336,7 +336,7 @@ input, textarea {
 }
 
 .footer-pic{
-    margin: 20px 40px;
+    margin-top: 20px;
     float: left;
 }
 
