@@ -17,29 +17,30 @@
   .btn{
     width:100%;
   }
-/*header*/
-.menu-icon{
-  display:block;
-}
-.header-right{ display: none;
-}
-/*home*/
+  /*header*/
+  .menu-icon{
+    display:block;
+  }
+  .header-right{ display: none;
+  }
+  /*home*/
   .home{
     text-align: center;
     padding-top:130px;
   }
   .home h1{
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 15px;
     padding-bottom: 25px;
   }
   .home p{
-    font-size: 10px;
+    font-size: 16px;
   }
   .deskripsi p{
-    font-size: 10px;
+    font-size: 14px;
     width:300px;
   }
+  
 /*bagian utama*/
   .member {
     width: 100%;
