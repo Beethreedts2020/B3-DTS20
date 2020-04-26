@@ -326,3 +326,27 @@ input, textarea {
     background-color: whitesmoke;
   }
 /* Akhir code Extra-2 Astri*/
+
+/* Footer*/
+.footer{
+    background-color:#d7f4f4;
+    color:black;
+    height: 140px;
+    font-family: "Aladin"; src: url(Aladin.ttf);
+}
+
+.footer-pic{
+    margin: 20px 40px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+    font-family: "Aladin";
+    padding-top: 15px;
+}
+
+.footer-list span{
+    color: chocolate;    
+}
+/* End Footer*/
