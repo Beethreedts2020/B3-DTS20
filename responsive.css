@@ -50,9 +50,15 @@
   }
 .facebook{
   margin-bottom: 10px;
+    width:15%;
 }
 .twitter{
   margin-bottom: 10px;
+  width:15%;
+}
+.instagram{
+  margin-bottom: 10px;
+  width:15%;
 }
 
 .heading-bagian-utama h2{
