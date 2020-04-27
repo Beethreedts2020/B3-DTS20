@@ -26,8 +26,10 @@
   /*home*/
   .home{
     text-align: center;
-    padding-top:130px;
-  }
+    /*padding-top:130px;*/
+    padding-top:200px;
+    background-size: 500px 650px;
+    }
   .home h1{
     font-size: 30px;
     letter-spacing: 15px;
@@ -82,6 +84,9 @@
   /*width: 60%;*/
   width: 80%;
 }
-
+/*footer*/
+  .footer-list{
+    text-align: right;
+  }
 
 }
