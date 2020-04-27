@@ -187,17 +187,17 @@ width:100%;
 }
 
 .facebook {
-  background-color: #3b5998;
+  background-color: black;
   margin-right: 10px;
 }
 
 .twitter {
-  background-color: #55acee;
+  background-color: black;
    margin-right: 10px;
 }
 
 .instagram {
-  background-color: #ff4500;
+  background-color: black;
 }
 
 .btn {
@@ -358,3 +358,30 @@ footer {
     color: chocolate;    
 }
 /* End Footer*/
+@keyframes rotasi { from {
+  transform: rotate(0deg);
+}
+to{ transform: rotate(360deg);
+
+}
+}
+@keyframes wiggle {
+	0% {
+		padding-top: 150px;
+	}
+
+	50% {
+		padding-top:  140px;
+	}
+
+	100% {
+	padding-top:  100px;
+	}
+}
+.home:hover{
+  animation: wiggle 5s ease;
+}
+.skill-icon img:hover{
+  animation: rotasi 2s infinite;
+}
+
